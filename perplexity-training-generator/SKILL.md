@@ -1,7 +1,7 @@
 ---
 name: "Perplexity Enterprise Pro Training Guide Generator"
-description: "Create customized Perplexity Enterprise Pro training guides for specific users. Use when someone needs a personalized onboarding guide for Perplexity Spaces based on their role, company, and workflows. Asks interactive questions to gather context, then generates a complete HTML training guide with Mali Insights and Move 78 branding."
-version: 1.0.0
+description: "Create customized Perplexity Enterprise Pro training guides for specific users. Use when someone needs a personalized onboarding guide for Perplexity Spaces based on their role, company, and workflows. Proactively researches the person via LinkedIn/web, then asks targeted questions to fill gaps, and generates a complete HTML training guide with Mali Insights and Move 78 branding."
+version: 1.1.0
 ---
 
 # Perplexity Enterprise Pro Training Guide Generator
@@ -21,20 +21,36 @@ The output is a complete HTML page with:
 
 ## Instructions
 
-### Step 1: Gather Context
-Ask the user these questions in a conversational way:
+### Step 0: Research First
+Before asking questions, attempt to gather context proactively:
 
-1. **Who is this guide for?**
+1. **Ask for basic info:**
+   - "Who is this guide for? (Name and LinkedIn URL, or name and company)"
+
+2. **Research their profile:**
+   - Use WebSearch or WebFetch to find their LinkedIn profile
+   - Extract: current role, company, industry, past roles, skills, recent posts/activity
+   - Look for: competitors they mention, tools they discuss, pain points they share
+
+3. **Summarize findings:**
+   - Present what you learned: "Based on [Name]'s LinkedIn, I can see they're a [Role] at [Company] working in [Industry]. They focus on [Responsibilities]. Their company competes with [Competitors]."
+   - State: **"I have sufficient info to proceed"** if you can answer most questions below
+   - OR ask only the remaining questions you couldn't answer from research
+
+### Step 1: Fill Gaps with Targeted Questions
+Only ask about what you couldn't find through research:
+
+1. **Who is this guide for?** (if not found)
    - Full name
    - Job title/role
    - Company name
 
-2. **What does this person do?**
+2. **What does this person do?** (if unclear from LinkedIn)
    - Main responsibilities in their role
    - What industry/vertical do they serve?
    - What teams do they work with?
 
-3. **What are their 3-4 biggest use cases for Perplexity?**
+3. **What are their 3-4 biggest use cases for Perplexity?** (always ask - can't infer)
    - Competitive intelligence?
    - Customer/prospect research?
    - Market analysis/benchmarking?
@@ -43,11 +59,11 @@ Ask the user these questions in a conversational way:
    - Sales enablement?
    - Other specific workflows?
 
-4. **What's their biggest time sink right now?**
+4. **What's their biggest time sink right now?** (always ask - can't infer)
    - What manual research tasks eat up their time?
    - What questions do they ask repeatedly?
 
-5. **Do they have any specific competitors, tools, or data sources they track?**
+5. **Do they have any specific competitors, tools, or data sources they track?** (supplement what you found)
    - Named competitors they monitor
    - Industry benchmarks they reference
    - Tools/platforms they currently use
@@ -177,9 +193,11 @@ Before generating, ensure:
 
 ## Guidelines
 
+- **Research first**: Always attempt to find their LinkedIn or public profile before asking questions
+- **State when ready**: Say "I have sufficient info to proceed" when you've gathered enough context
 - **Be conversational**: Ask questions naturally, don't interrogate
 - **Probe for specifics**: If they say "competitive research," ask which competitors by name
-- **Validate understanding**: Summarize what you heard before generating
+- **Validate understanding**: Summarize what you learned (from research + questions) before generating
 - **Make it actionable**: Every prompt should be copy-paste ready for real work
 - **Show compound value**: Emphasize how Spaces build institutional knowledge over time
 - **Highlight collaboration**: Show how shared Spaces help teams
