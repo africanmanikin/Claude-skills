@@ -1,0 +1,363 @@
+diff --git a/algorithmic-art/SKILL.md b/algorithmic-art/SKILL.md
+index 634f6fa..7138214 100644
+--- a/algorithmic-art/SKILL.md
++++ b/algorithmic-art/SKILL.md
+@@ -44,9 +44,9 @@ To capture the ALGORITHMIC essence, express how this philosophy manifests throug
+ - Temporal evolution and system states?
+ - Parametric variation and emergent complexity?
+ 
+-**CRITICAL GUIDELINES:**
++**Guidelines:**
+ - **Avoid redundancy**: Each algorithmic aspect should be mentioned once. Avoid repeating concepts about noise theory, particle dynamics, or mathematical principles unless adding new depth.
+-- **Emphasize craftsmanship REPEATEDLY**: The philosophy MUST stress multiple times that the final algorithm should appear as though it took countless hours to develop, was refined with care, and comes from someone at the absolute top of their field. This framing is essential - repeat phrases like "meticulously crafted algorithm," "the product of deep computational expertise," "painstaking optimization," "master-level implementation."
++- **Set the craftsmanship bar**: State clearly that the final algorithm should look refined with care by someone at the top of their field, so the implementation aims at master-level execution.
+ - **Leave creative space**: Be specific about the algorithmic direction, but concise enough that the next Claude has room to make interpretive implementation choices at an extremely high level of craftsmanship.
+ 
+ The philosophy must guide the next version to express ideas ALGORITHMICALLY, not through static images. Beauty lives in the process, not the final frame.
+@@ -89,18 +89,18 @@ Algorithmic expression: Randomized circle packing or Voronoi tessellation. Start
+ 
+ ## DEDUCING THE CONCEPTUAL SEED
+ 
+-**CRITICAL STEP**: Before implementing the algorithm, identify the subtle conceptual thread from the original request.
++Before implementing the algorithm, identify the subtle conceptual thread from the original request.
+ 
+ **THE ESSENTIAL PRINCIPLE**:
+ The concept is a **subtle, niche reference embedded within the algorithm itself** - not always literal, always sophisticated. Someone familiar with the subject should feel it intuitively, while others simply experience a masterful generative composition. The algorithmic philosophy provides the computational language. The deduced concept provides the soul - the quiet conceptual DNA woven invisibly into parameters, behaviors, and emergence patterns.
+ 
+-This is **VERY IMPORTANT**: The reference must be so refined that it enhances the work's depth without announcing itself. Think like a jazz musician quoting another song through algorithmic harmony - only those who know will catch it, but everyone appreciates the generative beauty.
++The reference must be so refined that it enhances the work's depth without announcing itself. Think like a jazz musician quoting another song through algorithmic harmony - only those who know will catch it, but everyone appreciates the generative beauty.
+ 
+ ---
+ 
+ ## P5.JS IMPLEMENTATION
+ 
+-With the philosophy AND conceptual framework established, express it through code. Pause to gather thoughts before proceeding. Use only the algorithmic philosophy created and the instructions below.
++With the philosophy AND conceptual framework established, express it through code. Use only the algorithmic philosophy created and the instructions below.
+ 
+ ### ⚠️ STEP 0: READ THE TEMPLATE FIRST ⚠️
+ 
+diff --git a/canvas-design/SKILL.md b/canvas-design/SKILL.md
+index 9f63fee..e8a2818 100644
+--- a/canvas-design/SKILL.md
++++ b/canvas-design/SKILL.md
+@@ -43,9 +43,9 @@ To capture the VISUAL essence, express how the philosophy manifests through:
+ - Composition and balance
+ - Visual hierarchy
+ 
+-**CRITICAL GUIDELINES:**
++**Guidelines:**
+ - **Avoid redundancy**: Each design aspect should be mentioned once. Avoid repeating points about color theory, spatial relationships, or typographic principles unless adding new depth.
+-- **Emphasize craftsmanship REPEATEDLY**: The philosophy MUST stress multiple times that the final work should appear as though it took countless hours to create, was labored over with care, and comes from someone at the absolute top of their field. This framing is essential - repeat phrases like "meticulously crafted," "the product of deep expertise," "painstaking attention," "master-level execution."
++- **Set the craftsmanship bar**: State clearly that the final work should look labored over with care by someone at the top of their field, so the next phase aims at master-level execution.
+ - **Leave creative space**: Remain specific about the aesthetic direction, but concise enough that the next Claude has room to make interpretive choices also at a extremely high level of craftmanship.
+ 
+ The philosophy must guide the next version to express ideas VISUALLY, not through text. Information lives in design, not paragraphs.
+@@ -80,7 +80,7 @@ Visual expression: Grid-based precision, bold photography or stark graphics, dra
+ - **SPATIAL EXPRESSION**: Ideas communicate through space, form, color, composition - not paragraphs
+ - **ARTISTIC FREEDOM**: The next Claude interprets the philosophy visually - provide creative room
+ - **PURE DESIGN**: This is about making ART OBJECTS, not documents with decoration
+-- **EXPERT CRAFTSMANSHIP**: Repeatedly emphasize the final work must look meticulously crafted, labored over with care, the product of countless hours by someone at the top of their field
++- **EXPERT CRAFTSMANSHIP**: The final work must look meticulously crafted, the product of someone at the top of their field
+ 
+ **The design philosophy should be 4-6 paragraphs long.** Fill it with poetic design philosophy that brings together the core vision. Avoid repeating the same points. Keep the design philosophy generic without mentioning the intention of the art, as if it can be used wherever. Output the design philosophy as a .md file.
+ 
+@@ -88,20 +88,20 @@ Visual expression: Grid-based precision, bold photography or stark graphics, dra
+ 
+ ## DEDUCING THE SUBTLE REFERENCE
+ 
+-**CRITICAL STEP**: Before creating the canvas, identify the subtle conceptual thread from the original request.
++Before creating the canvas, identify the subtle conceptual thread from the original request.
+ 
+ **THE ESSENTIAL PRINCIPLE**:
+ The topic is a **subtle, niche reference embedded within the art itself** - not always literal, always sophisticated. Someone familiar with the subject should feel it intuitively, while others simply experience a masterful abstract composition. The design philosophy provides the aesthetic language. The deduced topic provides the soul - the quiet conceptual DNA woven invisibly into form, color, and composition.
+ 
+-This is **VERY IMPORTANT**: The reference must be refined so it enhances the work's depth without announcing itself. Think like a jazz musician quoting another song - only those who know will catch it, but everyone appreciates the music.
++The reference must be refined so it enhances the work's depth without announcing itself. Think like a jazz musician quoting another song - only those who know will catch it, but everyone appreciates the music.
+ 
+ ---
+ 
+ ## CANVAS CREATION
+ 
+-With both the philosophy and the conceptual framework established, express it on a canvas. Take a moment to gather thoughts and clear the mind. Use the design philosophy created and the instructions below to craft a masterpiece, embodying all aspects of the philosophy with expert craftsmanship.
++With both the philosophy and the conceptual framework established, express it on a canvas. Use the design philosophy created and the instructions below to craft a masterpiece, embodying all aspects of the philosophy with expert craftsmanship.
+ 
+-**IMPORTANT**: For any type of content, even if the user requests something for a movie/game/book, the approach should still be sophisticated. Never lose sight of the idea that this should be art, not something that's cartoony or amateur.
++For any type of content, even if the user requests something for a movie/game/book, the approach should still be sophisticated. Never lose sight of the idea that this should be art, not something that's cartoony or amateur.
+ 
+ To create museum or magazine quality work, use the design philosophy as the foundation. Create one single page, highly visual, design-forward PDF or PNG output (unless asked for more pages). Generally use repeating patterns and perfect shapes. Treat the abstract philosophical design as if it were a scientific bible, borrowing the visual language of systematic observation—dense accumulation of marks, repeated elements, or layered patterns that build meaning through patient repetition and reward sustained viewing. Add sparse, clinical typography and systematic reference markers that suggest this could be a diagram from an imaginary discipline, treating the invisible subject with the same reverence typically reserved for documenting observable phenomena. Anchor the piece with simple phrase(s) or details positioned subtly, using a limited color palette that feels intentional and cohesive. Embrace the paradox of using analytical visual language to express ideas about human experience: the result should feel like an artifact that proves something ephemeral can be studied, mapped, and understood through careful attention. This is true art. 
+ 
+@@ -111,7 +111,7 @@ Download and use whatever fonts are needed to make this a reality. Get creative
+ 
+ To push boundaries, follow design instinct/intuition while using the philosophy as a guiding principle. Embrace ultimate design freedom and choice. Push aesthetics and design to the frontier. 
+ 
+-**CRITICAL**: To achieve human-crafted quality (not AI-generated), create work that looks like it took countless hours. Make it appear as though someone at the absolute top of their field labored over every detail with painstaking care. Ensure the composition, spacing, color choices, typography - everything screams expert-level craftsmanship. Double-check that nothing overlaps, formatting is flawless, every detail perfect. Create something that could be shown to people to prove expertise and rank as undeniably impressive.
++To achieve human-crafted quality (not AI-generated), create work that looks like it took countless hours. Make it appear as though someone at the absolute top of their field labored over every detail with painstaking care. Ensure the composition, spacing, color choices, typography - everything screams expert-level craftsmanship. Double-check that nothing overlaps, formatting is flawless, every detail perfect. Create something that could be shown to people to prove expertise and rank as undeniably impressive.
+ 
+ Output the final result as a single, downloadable .pdf or .png file, alongside the design philosophy used as a .md file.
+ 
+@@ -119,9 +119,7 @@ Output the final result as a single, downloadable .pdf or .png file, alongside t
+ 
+ ## FINAL STEP
+ 
+-**IMPORTANT**: The user ALREADY said "It isn't perfect enough. It must be pristine, a masterpiece if craftsmanship, as if it were about to be displayed in a museum."
+-
+-**CRITICAL**: To refine the work, avoid adding more graphics; instead refine what has been created and make it extremely crisp, respecting the design philosophy and the principles of minimalism entirely. Rather than adding a fun filter or refactoring a font, consider how to make the existing composition more cohesive with the art. If the instinct is to call a new function or draw a new shape, STOP and instead ask: "How can I make what's already here more of a piece of art?"
++The first draft is not the finished piece: the bar is pristine, museum-ready work, so take a refinement pass. To refine the work, avoid adding more graphics; instead refine what has been created and make it extremely crisp, respecting the design philosophy and the principles of minimalism entirely. Rather than adding a fun filter or refactoring a font, consider how to make the existing composition more cohesive with the art. If the instinct is to call a new function or draw a new shape, STOP and instead ask: "How can I make what's already here more of a piece of art?"
+ 
+ Take a second pass. Go back to the code and refine/polish further to make this a philosophically designed masterpiece.
+ 
+diff --git a/document-skills/docx/SKILL.md b/document-skills/docx/SKILL.md
+index 6646638..9b75a4b 100644
+--- a/document-skills/docx/SKILL.md
++++ b/document-skills/docx/SKILL.md
+@@ -56,7 +56,7 @@ You need raw XML access for: comments, complex formatting, document structure, e
+ When creating a new Word document from scratch, use **docx-js**, which allows you to create Word documents using JavaScript/TypeScript.
+ 
+ ### Workflow
+-1. **MANDATORY - READ ENTIRE FILE**: Read [`docx-js.md`](docx-js.md) (~500 lines) completely from start to finish. **NEVER set any range limits when reading this file.** Read the full file content for detailed syntax, critical formatting rules, and best practices before proceeding with document creation.
++1. Read [`docx-js.md`](docx-js.md) in full before writing code: its formatting rules (lists, page breaks, table shading, images) are what keep the output a valid file Word can open.
+ 2. Create a JavaScript/TypeScript file using Document, Paragraph, TextRun components (You can assume all dependencies are installed, but if not, refer to the dependencies section below)
+ 3. Export as .docx using Packer.toBuffer()
+ 
+@@ -65,7 +65,7 @@ When creating a new Word document from scratch, use **docx-js**, which allows yo
+ When editing an existing Word document, use the **Document library** (a Python library for OOXML manipulation). The library automatically handles infrastructure setup and provides methods for document manipulation. For complex scenarios, you can access the underlying DOM directly through the library.
+ 
+ ### Workflow
+-1. **MANDATORY - READ ENTIRE FILE**: Read [`ooxml.md`](ooxml.md) (~600 lines) completely from start to finish. **NEVER set any range limits when reading this file.** Read the full file content for the Document library API and XML patterns for directly editing document files.
++1. Read [`ooxml.md`](ooxml.md) in full before editing: it holds the Document library API and the XML patterns for editing document files directly.
+ 2. Unpack the document: `python ooxml/scripts/unpack.py <office_file> <output_directory>`
+ 3. Create and run a Python script using the Document library (see "Document Library" section in ooxml.md)
+ 4. Pack the final document: `python ooxml/scripts/pack.py <input_directory> <office_file>`
+@@ -113,7 +113,7 @@ Example - Changing "30 days" to "60 days" in a sentence:
+    - Sequential: "Batch 1: Pages 1-3", "Batch 2: Pages 4-6"
+ 
+ 3. **Read documentation and unpack**:
+-   - **MANDATORY - READ ENTIRE FILE**: Read [`ooxml.md`](ooxml.md) (~600 lines) completely from start to finish. **NEVER set any range limits when reading this file.** Pay special attention to the "Document Library" and "Tracked Change Patterns" sections.
++   - **Read [`ooxml.md`](ooxml.md) in full**, especially the "Document Library" and "Tracked Change Patterns" sections.
+    - **Unpack the document**: `python ooxml/scripts/unpack.py <file.docx> <dir>`
+    - **Note the suggested RSID**: The unpack script will suggest an RSID to use for your tracked changes. Copy this RSID for use in step 4b.
+ 
+diff --git a/document-skills/pptx/SKILL.md b/document-skills/pptx/SKILL.md
+index b93b875..9582bf1 100644
+--- a/document-skills/pptx/SKILL.md
++++ b/document-skills/pptx/SKILL.md
+@@ -148,7 +148,7 @@ When creating a new PowerPoint presentation from scratch, use the **html2pptx**
+ - **NEVER vertically stack**: Do not place charts/tables below text in a single column - this causes poor readability and layout issues
+ 
+ ### Workflow
+-1. **MANDATORY - READ ENTIRE FILE**: Read [`html2pptx.md`](html2pptx.md) completely from start to finish. **NEVER set any range limits when reading this file.** Read the full file content for detailed syntax, critical formatting rules, and best practices before proceeding with presentation creation.
++1. Read [`html2pptx.md`](html2pptx.md) in full before writing slides: its formatting rules (text containers, gradients, hex colors) are what keep the output a file PowerPoint can open.
+ 2. Create an HTML file for each slide with proper dimensions (e.g., 720pt × 405pt for 16:9)
+    - Use `<p>`, `<h1>`-`<h6>`, `<ul>`, `<ol>` for all text content
+    - Use `class="placeholder"` for areas where charts/tables will be added (render with gray background for visibility)
+@@ -173,7 +173,7 @@ When creating a new PowerPoint presentation from scratch, use the **html2pptx**
+ When edit slides in an existing PowerPoint presentation, you need to work with the raw Office Open XML (OOXML) format. This involves unpacking the .pptx file, editing the XML content, and repacking it.
+ 
+ ### Workflow
+-1. **MANDATORY - READ ENTIRE FILE**: Read [`ooxml.md`](ooxml.md) (~500 lines) completely from start to finish.  **NEVER set any range limits when reading this file.**  Read the full file content for detailed guidance on OOXML structure and editing workflows before any presentation editing.
++1. Read [`ooxml.md`](ooxml.md) in full before editing: it covers OOXML structure and the editing workflow.
+ 2. Unpack the presentation: `python ooxml/scripts/unpack.py <office_file> <output_dir>`
+ 3. Edit the XML files (primarily `ppt/slides/slide{N}.xml` and related files)
+ 4. **CRITICAL**: Validate immediately after each edit and fix any validation errors before proceeding: `python ooxml/scripts/validate.py <dir> --original <file>`
+diff --git a/mcp-builder/reference/evaluation.md b/mcp-builder/reference/evaluation.md
+index 87e9bb7..33464f6 100644
+--- a/mcp-builder/reference/evaluation.md
++++ b/mcp-builder/reference/evaluation.md
+@@ -485,7 +485,7 @@ positional arguments:
+ optional arguments:
+   -h, --help            Show help message
+   -t, --transport       Transport type: stdio, sse, or http (default: stdio)
+-  -m, --model           Claude model to use (default: claude-3-7-sonnet-20250219)
++  -m, --model           Claude model to use (default: claude-opus-5)
+   -o, --output          Output file for report (default: print to stdout)
+ 
+ stdio options:
+@@ -596,7 +596,7 @@ If many evaluations fail:
+ ### Timeout Issues
+ 
+ If tasks are timing out:
+-- Use a more capable model (e.g., `claude-3-7-sonnet-20250219`)
++- Check that `-m` names a current model (default: `claude-opus-5`)
+ - Check if tools are returning too much data
+ - Verify pagination is working correctly
+ - Consider simplifying complex questions
+\ No newline at end of file
+diff --git a/mcp-builder/scripts/evaluation.py b/mcp-builder/scripts/evaluation.py
+index 4177856..d2d2d64 100644
+--- a/mcp-builder/scripts/evaluation.py
++++ b/mcp-builder/scripts/evaluation.py
+@@ -18,39 +18,21 @@ from anthropic import Anthropic
+ 
+ from connections import create_connection
+ 
+-EVALUATION_PROMPT = """You are an AI assistant with access to tools.
+-
+-When given a task, you MUST:
+-1. Use the available tools to complete the task
+-2. Provide summary of each step in your approach, wrapped in <summary> tags
+-3. Provide feedback on the tools provided, wrapped in <feedback> tags
+-4. Provide your final response, wrapped in <response> tags
+-
+-Summary Requirements:
+-- In your <summary> tags, you must explain:
+-  - The steps you took to complete the task
+-  - Which tools you used, in what order, and why
+-  - The inputs you provided to each tool
+-  - The outputs you received from each tool
+-  - A summary for how you arrived at the response
+-
+-Feedback Requirements:
+-- In your <feedback> tags, provide constructive feedback on the tools:
+-  - Comment on tool names: Are they clear and descriptive?
+-  - Comment on input parameters: Are they well-documented? Are required vs optional parameters clear?
+-  - Comment on descriptions: Do they accurately describe what the tool does?
+-  - Comment on any errors encountered during tool usage: Did the tool fail to execute? Did the tool return too many tokens?
+-  - Identify specific areas for improvement and explain WHY they would help
+-  - Be specific and actionable in your suggestions
+-
+-Response Requirements:
+-- Your response should be concise and directly address what was asked
+-- Always wrap your final response in <response> tags
+-- If you cannot solve the task return <response>NOT_FOUND</response>
+-- For numeric responses, provide just the number
+-- For IDs, provide just the ID
+-- For names or text, provide the exact text requested
+-- Your response should go last"""
++EVALUATION_PROMPT = """You are answering questions using the tools of an MCP server that is being evaluated. Your notes on the tools go back to the server's developers so they can improve them.
++
++For each task, use the available tools to find the answer, then write three sections in this order:
++
++<summary>
++The steps you took: which tools you called, in what order and why, the inputs you gave each one, and what each returned.
++</summary>
++
++<feedback>
++Specific, actionable feedback on the tools: whether the names are clear, whether parameters are documented well enough to tell required from optional, whether each description matches what the tool actually does, and any errors or oversized responses you hit. Say why each suggested change would help.
++</feedback>
++
++<response>
++Only the answer, with no surrounding words: just the number for numeric answers, just the ID for IDs, the exact requested text for names or text. If you cannot find the answer, write NOT_FOUND.
++</response>"""
+ 
+ 
+ def parse_evaluation_file(file_path: Path) -> list[dict[str, Any]]:
+@@ -96,7 +78,7 @@ async def agent_loop(
+     response = await asyncio.to_thread(
+         client.messages.create,
+         model=model,
+-        max_tokens=4096,
++        max_tokens=16000,
+         system=EVALUATION_PROMPT,
+         messages=messages,
+         tools=tools,
+@@ -107,47 +89,44 @@ async def agent_loop(
+     tool_metrics = {}
+ 
+     while response.stop_reason == "tool_use":
+-        tool_use = next(block for block in response.content if block.type == "tool_use")
+-        tool_name = tool_use.name
+-        tool_input = tool_use.input
+-
+-        tool_start_ts = time.time()
+-        try:
+-            tool_result = await connection.call_tool(tool_name, tool_input)
+-            tool_response = json.dumps(tool_result) if isinstance(tool_result, (dict, list)) else str(tool_result)
+-        except Exception as e:
+-            tool_response = f"Error executing tool {tool_name}: {str(e)}\n"
+-            tool_response += traceback.format_exc()
+-        tool_duration = time.time() - tool_start_ts
+-
+-        if tool_name not in tool_metrics:
+-            tool_metrics[tool_name] = {"count": 0, "durations": []}
+-        tool_metrics[tool_name]["count"] += 1
+-        tool_metrics[tool_name]["durations"].append(tool_duration)
+-
+-        messages.append({
+-            "role": "user",
+-            "content": [{
++        tool_results = []
++        for tool_use in (block for block in response.content if block.type == "tool_use"):
++            tool_name = tool_use.name
++            tool_input = tool_use.input
++
++            tool_start_ts = time.time()
++            try:
++                tool_result = await connection.call_tool(tool_name, tool_input)
++                tool_response = json.dumps(tool_result) if isinstance(tool_result, (dict, list)) else str(tool_result)
++            except Exception as e:
++                tool_response = f"Error executing tool {tool_name}: {str(e)}\n"
++                tool_response += traceback.format_exc()
++            tool_duration = time.time() - tool_start_ts
++
++            if tool_name not in tool_metrics:
++                tool_metrics[tool_name] = {"count": 0, "durations": []}
++            tool_metrics[tool_name]["count"] += 1
++            tool_metrics[tool_name]["durations"].append(tool_duration)
++
++            tool_results.append({
+                 "type": "tool_result",
+                 "tool_use_id": tool_use.id,
+                 "content": tool_response,
+-            }]
+-        })
++            })
++
++        messages.append({"role": "user", "content": tool_results})
+ 
+         response = await asyncio.to_thread(
+             client.messages.create,
+             model=model,
+-            max_tokens=4096,
++            max_tokens=16000,
+             system=EVALUATION_PROMPT,
+             messages=messages,
+             tools=tools,
+         )
+         messages.append({"role": "assistant", "content": response.content})
+ 
+-    response_text = next(
+-        (block.text for block in response.content if hasattr(block, "text")),
+-        None,
+-    )
++    response_text = "".join(block.text for block in response.content if block.type == "text")
+     return response_text, tool_metrics
+ 
+ 
+@@ -220,7 +199,7 @@ TASK_TEMPLATE = """
+ async def run_evaluation(
+     eval_path: Path,
+     connection: Any,
+-    model: str = "claude-3-7-sonnet-20250219",
++    model: str = "claude-opus-5",
+ ) -> str:
+     """Run evaluation with MCP server tools."""
+     print("🚀 Starting Evaluation")
+@@ -315,13 +294,13 @@ Examples:
+   python evaluation.py -t sse -u https://example.com/mcp -H "Authorization: Bearer token" eval.xml
+ 
+   # Evaluate an HTTP MCP server with custom model
+-  python evaluation.py -t http -u https://example.com/mcp -m claude-3-5-sonnet-20241022 eval.xml
++  python evaluation.py -t http -u https://example.com/mcp -m claude-sonnet-5 eval.xml
+         """,
+     )
+ 
+     parser.add_argument("eval_file", type=Path, help="Path to evaluation XML file")
+     parser.add_argument("-t", "--transport", choices=["stdio", "sse", "http"], default="stdio", help="Transport type (default: stdio)")
+-    parser.add_argument("-m", "--model", default="claude-3-7-sonnet-20250219", help="Claude model to use (default: claude-3-7-sonnet-20250219)")
++    parser.add_argument("-m", "--model", default="claude-opus-5", help="Claude model to use (default: claude-opus-5)")
+ 
+     stdio_group = parser.add_argument_group("stdio options")
+     stdio_group.add_argument("-c", "--command", help="Command to run MCP server (stdio only)")
+diff --git a/perplexity-training-generator/SKILL.md b/perplexity-training-generator/SKILL.md
+index 0def242..a16b5ed 100644
+--- a/perplexity-training-generator/SKILL.md
++++ b/perplexity-training-generator/SKILL.md
+@@ -171,7 +171,7 @@ Before generating, ensure:
+ - ✓ Use cases reflect what they actually do
+ - ✓ Examples use real scenarios from their work
+ - ✓ First week plan is actionable and specific
+-- ✓ No generic placeholder text remains
++- ✓ No unfilled template text remains (bracketed placeholders are fine only inside copy-paste prompts the reader is meant to fill in)
+ - ✓ Branding is prominent (Mali Insights + Move 78)
+ 
+ ## Examples
